@@ -46,6 +46,12 @@ section {
     background-size: cover;
 }
 
+.ju {
+    background-image: url(/assets/img/ju.png);
+    background-position: center;
+    background-size: cover;
+}
+
 
 h2 {
     width: 100%;
