@@ -127,3 +127,7 @@ p {
 .history > h2 {
     margin-bottom: 40px;
 }
+
+.dados-currency > p {
+    text-align: left;
+}
