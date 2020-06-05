@@ -1,0 +1,139 @@
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 300px;
+    height: 85vh;
+}
+
+/* Cards da equipe */
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    background-color: #282B30;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+h1 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    margin: 0 auto;
+    display: block;
+    background-color: #FE5D93;
+    width: 40px;
+    height: 3px;
+}
+
+h2 {
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    margin: 0 auto;
+    display: block;
+    background-color: #FE5D93;
+    width: 40px;
+    height: 3px;
+}
+
+form {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 15px 50px;
+    background-color: rgb(56, 59, 65);
+    color: #D4D4D4;
+    border-radius: 40px;
+    border: none;
+}
+
+.button {
+    width: 40%;
+    margin-top: 30px;   
+    padding: 12px 40px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #282B30;
+    border: 1.5px solid #FE5D93;
+    color: #FE5D93;
+    text-transform: uppercase;
+    transition:  0.8s;
+}
+
+.button:hover {
+    background-color: #FE5D93;
+    color: #12171D;
+}
+
+p {
+    width: 100%;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.history {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.currency {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30px 40px;
+    background-color: #282B30;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.dados-currency > p {
+    width: 25%;
+    margin: 0;
+}
+
+.dados-currency {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.dados {
+    margin-top: 10px;
+}
+
+.history > h2 {
+    margin-bottom: 40px;
+}
