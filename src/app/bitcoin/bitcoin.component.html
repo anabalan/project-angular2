@@ -9,12 +9,12 @@
             <!-- Card de cotação Real -->
             <div class="bitcoin-cotacao real">
                 <p>REAL</p>
-                <p class="valor">R$</p>
+                <p class="valor">R$ {{ this.bitcoins.bpi.BRL.rate}}</p>
             </div>
             <!-- Card de cotação Dólar -->
             <div class="bitcoin-cotacao dolar">
                 <p>DÓLAR</p>
-                <p class="valor">$</p>
+                <p class="valor">$ {{ this.bitcoins.bpi.USD.rate }}</p>
             </div> 
         </div>
     </div>
