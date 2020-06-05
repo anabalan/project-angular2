@@ -1,0 +1,126 @@
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 45px 300px;
+}
+
+h1 {
+    width: 100%;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    margin: 0 auto;
+    display: block;
+    background-color: #FE5D93;
+    width: 40px;
+    height: 3px;
+}
+
+.bitcoin-cotacao > p {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.att-bitcoin {
+    margin-top: 15px;
+    width: 100%;
+    text-align: left;
+    text-transform: none;
+}
+
+.container-bitcoin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.img-bitcoin {
+    width: 55%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.cotacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.bitcoin-cotacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #282B30;
+    border-radius: 25px;
+    padding: 30px;
+    transition: ease-in-out 0.7s;
+}
+
+.bitcoin-cotacao:hover {
+    transform: scale(0.95); 
+    cursor: pointer;
+    
+}
+
+.valor {
+    font-size: 35px;
+    font-weight: 500;
+    color: #FE5D93;
+}
+
+.dolar {
+    margin-top: 40px
+}
+
+.container-currency {
+    margin-top: 100px;
+}
+
+.currency {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30px 40px;
+    background-color: #282B30;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.dados-currency > p {
+    width: 25%;
+    margin: 0;
+}
+
+.dados-currency {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.dados {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
