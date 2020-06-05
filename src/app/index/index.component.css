@@ -1,0 +1,85 @@
+.group {
+    background-image: url(/assets/img/bk1.png);
+    background-position: top center;
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 150px;
+}
+
+/* Cards da equipe */
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    background-color: #282B30;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.ana {
+    background-image: url(/assets/img/ana.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+a {
+    margin-top: 30px;
+    padding: 12px 40px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1.5px solid #FE5D93;
+    color: #FE5D93;
+    text-transform: uppercase;
+    transition:  0.8s;
+}
+
+a:hover {
+    background-color: #FE5D93;
+    color: #12171D;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+
+#name {
+    margin-left: 70px;
+}
