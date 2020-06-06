@@ -21,6 +21,7 @@ type PayloadJSON = {
   };
 };
 
+// Colocando o serviço por toda aplicação
 @Injectable({
   providedIn: 'root',
 })
@@ -53,7 +54,6 @@ export class BitcoinService {
   // ];
 
   public indexCurrency;
-  private timer: any;
 
   private bitcoinData: PayloadJSON;
   private bitcoinHistory: PayloadJSON[] = [];
@@ -79,22 +79,24 @@ export class BitcoinService {
         this.bitcoinData = data;
         this.bitcoinHistory.push(data);
 
+        // Salvando os dados no navegador
         this.storage.set('@app:bitcoinHistory', this.bitcoinHistory);
       });
   }
   
-  // USD - Acessa o atributo `currentCurrency`
+  // USD - Retornando valor
   getCurrentCurrency_usd() {
     return this.bitcoinData.bpi.USD.rate_float;
     
   }
 
-  // BRL - Acessa o atributo currentCurrency
+  // BRL - Retornando valor
   getCurrentCurrency_brl() {
     return this.bitcoinData.bpi.BRL.rate_float;
     
   }
 
+  // Retornando histórico das cotações
   getBitcoinHistory() {
     return this.bitcoinHistory;
   }

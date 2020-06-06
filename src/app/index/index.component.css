@@ -1,7 +1,7 @@
 .group {
-    background-image: url(/assets/img/bk1.png);
-    background-position: top center;
-    background-size: cover;
+        background-image: url(/assets/img/bk1.png);
+        background-position: top center;
+        background-size: cover;
 }
 
 section {
